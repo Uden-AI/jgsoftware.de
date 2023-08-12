@@ -510,9 +510,9 @@ input[type='checkbox'] {
 /******************/
 /*     Header     */
 /******************/
-.header {
+/* .header {
 	background-color: #f7fafd;
-}
+} */
 
 .header .area-1 {
 	padding: 8rem 1rem 5rem 1rem;
@@ -547,11 +547,11 @@ input[type='checkbox'] {
 	color: #d79491;
 }
 
-.header .area-2 {
+/* .header .area-2 {
 	height: 400px;
 	background: url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover;
-}
+} */
 
 
 /*****************/
@@ -644,7 +644,7 @@ input[type='checkbox'] {
 
 /********************/
 /*     Projects     */
-/********************/
+/* 
 .cards-1 {
 	padding-top: 8rem;
 	padding-bottom: 3rem;
@@ -665,7 +665,7 @@ input[type='checkbox'] {
 	border: none;
 }
 
-/* Hover Animation */
+/* Hover Animation
 .cards-1 .card-image {
 	overflow: hidden;
 	margin-right: auto;
@@ -682,11 +682,11 @@ input[type='checkbox'] {
 	-webkit-transform: scale(1.15);
 	transform: scale(1.15);
 } 
-/* end of hover animation */
+/* end of hover animation
 
 .cards-1 .card-body {
 	padding: 1rem 0 0 0;
-}
+} */
 
 
 /*********************/
