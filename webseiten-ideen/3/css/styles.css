@@ -481,7 +481,7 @@ input[type='checkbox'] {
 
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #d79491;
+	color: #6986b3;
 }
 
 .navbar .social-icons a {
@@ -497,7 +497,7 @@ input[type='checkbox'] {
 }
 
 .navbar .fab:hover {
-	color: #d79491;
+	color: #91a4d7;
 }
 
 .navbar .navbar-toggler {
