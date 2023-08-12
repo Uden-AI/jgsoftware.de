@@ -25,6 +25,7 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/fontawesome-all.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
+		<link href="../../uno.css" rel="stylesheet">
         
         <!-- Favicon  -->
         <link rel="icon" href="images/favicon.png">
@@ -78,22 +79,25 @@
 
 
         <!-- Header -->
-        <header class="header">
-            <div class="area-1">
-                <div class="text-container">
-                    <h1 class="h1-large">Lorem ips dolo <span id="js-rotating">amets, conse, tetur</span></h1>
+        <header class="h-screen w-full from-blue-100 bg-gradient-to-tr to-gray-50 pt-50">
+            <div class="grid md:grid-cols-12 grid-rows-12 md:grid-rows-1 max-w-7xl mx-auto px-6">
+                <div class="col-span-6 row-span-4 flex flex-col mx-auto max-w-140 justify-center">
+                    <h1 class="h1-large">Lorem ips dolo <span id="js-rotating" class="bg-gradient-to-tr from-green-300 via-blue-500 to-purple-600 text-transparent bg-clip-text">amets, conse, tetur</span></h1>
                     <p class="p-large">Semper viverra nam libero justo at risus viverra adipis cing at in tellus integer feugiat sceler isques semi</p>
-                    <a class="page-scroll" href="#about"><i class="fas fa-chevron-down"></i></a>
+                    <a class="page-scroll hidden md:inline" href="#about"><i class="fas fa-chevron-down"></i></a>
                 </div> <!-- end of text-container -->
-            </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2"></div> <!-- end of area-2 -->
+				<div class="col-span-6 row-span-6 flex items-center justify-center">
+					<img src="images/header-background.jpg" class="rounded-md shadow max-w-140 mx-auto" />
+				</div>
+            </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space -->
         </header> <!-- end of header -->
         <!-- end of header -->
 
 
 
         <!-- About -->
-        <div id="about" class="basic-1">
-            <div class="container">
+        <section id="about" class="basic-1">
+            <div class="max-w-7xl flex flex-col mx-auto items-center">
                 <div class="row">
                     <div class="col-lg-12">
                         <h2 class="h2-heading">Quis commodo odio</h2>
@@ -103,7 +107,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="image-container">
-                            <img class="img-fluid" src="images/about.jpg" alt="alternative">
+                            <img class="img-fluid rounded" src="images/about.jpg" alt="alternative">
                         </div> <!-- end of image-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -124,69 +128,63 @@
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
-        </div> <!-- end of basic-1 -->
+        </section> <!-- end of basic-1 -->
         <!-- end of about -->
 
 
         <!-- Services -->
-        <div id="services" class="basic-2 bg-gray">
+        <div id="services" class="basic-2 bg-dark-700 py-30">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2 class="h2-heading">Odiout enimbait</h2>
-                        <p class="p-heading">Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Tortor dignissim convallis aenean et. Eget magna fermentum iaculis eu non</p>
+                        <h2 class="h2-heading text-gray-100">Odiout enimbait</h2>
+                        <p class="p-heading text-gray-200">Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Tortor dignissim convallis aenean et. Eget magna fermentum iaculis eu non</p>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
-                <div class="row">
-                    <div class="col-lg-6">
-                        <ul class="list-unstyled first">
-                            <li class="media">
-                                <i class="fas fa-rocket"></i>
-                                <div class="media-body">
-                                    <h5>Faucibus pulvinar</h5>
-                                    <p>Velit laoreet id donec ultrices tincidunt arcu habitasse platea dictumst quisque sagittis purus sit pulvinar</p>
-                                </div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-bullhorn"></i>
-                                <div class="media-body">
-                                    <h5>Elementum integer</h5>
-                                    <p>Velit laoreet id donec ultrices tincidunt arcu habitasse platea dictumst quisque sagittis purus sit pulvinar</p>
-                                </div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-font"></i>
-                                <div class="media-body">
-                                    <h5>Enimnee Voluptare</h5>
-                                    <p>Velit laoreet id donec ultrices tincidunt arcu habitasse platea dictumst quisque sagittis purus sit pulvinar</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div> <!-- end of col -->
-                    <div class="col-lg-6">
-                        <ul class="list-unstyled second">
-                            <li class="media">
-                                <i class="fas fa-keyboard"></i>
-                                <div class="media-body">
-                                    <h5>Dictumst quisque</h5>
-                                    <p>Velit laoreet id donec ultrices tincidunt arcu habitasse platea dictumst quisque sagittis purus sit pulvinar</p>
-                                </div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-photo-video"></i>
-                                <div class="media-body">
-                                    <h5>Purussit ametro</h5>
-                                    <p>Velit laoreet id donec ultrices tincidunt arcu habitasse platea dictumst quisque sagittis purus sit pulvinar</p>
-                                </div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-users"></i>
-                                <div class="media-body">
-                                    <h5>Conference speaking</h5>
-                                    <p>Velit laoreet id donec ultrices tincidunt arcu habitasse platea dictumst quisque sagittis purus sit pulvinar</p>
-                                </div>
-                            </li>
-                        </ul>
+                <div class="row md:px-0 px-3">
+                    <div class="md:grid md:grid-cols-2 flex flex-col gap-10 mx-auto children:max-w-120">
+						<li class="flex flex-row gap-4 items-center mx-auto">
+							<i class="fas fa-rocket text-[3rem] text-rose-400"></i>
+							<div class="flex flex-col">
+								<h5 class="text-gray-100">Faucibus pulvinar</h5>
+								<span class="text-gray-200">Velit laoreet id donec ultrices tincidunt arcu habitasse platea dictumst quisque sagittis purus sit pulvinar</span>
+							</div>
+						</li>
+						<li class="flex flex-row gap-4 items-center mx-auto">
+							<i class="fas fa-bullhorn text-[3rem] text-rose-400"></i>
+							<div class="flex flex-col">
+								<h5 class="text-gray-100">Elementum integer</h5>
+								<span class="text-gray-200">Velit laoreet id donec ultrices tincidunt arcu habitasse platea dictumst quisque sagittis purus sit pulvinar</span>
+							</div>
+						</li>
+						<li class="flex flex-row gap-4 items-center mx-auto">
+							<i class="fas fa-font text-[3rem] text-rose-400"></i>
+							<div class="flex flex-col">
+								<h5 class="text-gray-100">Faucibus pulvinar</h5>
+								<span class="text-gray-200">Velit laoreet id donec ultrices tincidunt arcu habitasse platea dictumst quisque sagittis purus sit pulvinar</span>
+							</div>
+						</li>
+						<li class="flex flex-row gap-4 items-center mx-auto">
+							<i class="fas fa-keyboard text-[3rem] text-rose-400"></i>
+							<div class="flex flex-col">
+								<h5 class="text-gray-100">Dictumst quisque</h5>
+								<span class="text-gray-200">Velit laoreet id donec ultrices tincidunt arcu habitasse platea dictumst quisque sagittis purus sit pulvinar</span>
+							</div>
+						</li>
+						<li class="flex flex-row gap-4 items-center mx-auto">
+							<i class="fas fa-photo-video text-[3rem] text-rose-400"></i>
+							<div class="flex flex-col">
+								<h5 class="text-gray-100">Purussit ametro</h5>
+								<span class="text-gray-200">Velit laoreet id donec ultrices tincidunt arcu habitasse platea dictumst quisque sagittis purus sit pulvinar</span>
+							</div>
+						</li>
+						<li class="flex flex-row gap-4 items-center mx-auto">
+							<i class="fas fa-users text-[3rem] text-rose-400"></i>
+							<div class="flex flex-col">
+								<h5 class="text-gray-100">Conference speaking</h5>
+								<span class="text-gray-200">Velit laoreet id donec ultrices tincidunt arcu habitasse platea dictumst quisque sagittis purus sit pulvinar</span>
+							</div>
+						</li>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
@@ -209,134 +207,91 @@
 
 
         <!-- Projects -->
-        <div id="projects" class="cards-1">
-            <div class="container">
-                <div class="row">
+        <div id="projects" class="cards-1 py-30">
+            <div class="container flex flex-col gap-6 max-w-7xl mx-auto">
+                <div class="row mx-auto">
                     <div class="col-lg-12">
-                        <h2 class="h2-heading">Accumsan in nisl nisi</h2>
-                        <p class="p-heading">Accumsan in nisl nisi scelerisque eu ultrices. Id diam maecenas ultricies mi eget mauris pharetra. Velit laoreet id donec ultrices tincidunt non nisi</p>
+                        <h2 class="h2-heading text-center">Accumsan in nisl nisi</h2>
+                        <p class="p-heading text-center">Accumsan in nisl nisi scelerisque eu ultrices. Id diam maecenas ultricies mi eget mauris pharetra. Velit laoreet id donec ultrices tincidunt non nisi</p>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="md:grid md:grid-cols-4 flex flex-col px-2 gap-4 children:mx-auto">
                         
                         <!-- Card -->
-                        <div class="card">
-                            <div class="card-image">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <strong>Projetitle.com</strong> - Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
+                        <div class="rounded-sm flex flex-col h-80 ring-1 ring-gray-200 overflow-hidden">
+							<a class="w-full grow flex justify-center group items-center overflow-hidden" href="project.html">
+								<img class="object-cover h-full w-full hover:scale-110 duration-200" src="images/project-1.jpg" alt="alternative">
+							</a>
+                            <div class="p-3 flex flex-col shrink-0">
+                                <strong>Projetitle.com</strong>Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
                             </div>
                         </div>
                         <!-- end of card -->
 
-                        <!-- Card -->
-                        <div class="card">
-                            <div class="card-image">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <strong>Projetitle.com</strong> - Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
+						<div class="rounded-sm flex flex-col h-80 ring-1 ring-gray-200 overflow-hidden">
+							<a class="w-full grow flex justify-center group items-center overflow-hidden" href="project.html">
+								<img class="object-cover h-full w-full hover:scale-110 duration-200" src="images/project-1.jpg" alt="alternative">
+							</a>
+                            <div class="p-3 flex flex-col shrink-0">
+                                <strong>Projetitle.com</strong>Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
                             </div>
                         </div>
-                        <!-- end of card -->
 
-                        <!-- Card -->
-                        <div class="card">
-                            <div class="card-image">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <strong>Projetitle.com</strong> - Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
+						<div class="rounded-sm flex flex-col h-80 ring-1 ring-gray-200 overflow-hidden">
+							<a class="w-full grow flex justify-center group items-center overflow-hidden" href="project.html">
+								<img class="object-cover h-full w-full hover:scale-110 duration-200" src="images/project-1.jpg" alt="alternative">
+							</a>
+                            <div class="p-3 flex flex-col shrink-0">
+                                <strong>Projetitle.com</strong>Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
                             </div>
                         </div>
-                        <!-- end of card -->
 
-                        <!-- Card -->
-                        <div class="card">
-                            <div class="card-image">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <strong>Projetitle.com</strong> - Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
+						<div class="rounded-sm flex flex-col h-80 ring-1 ring-gray-200 overflow-hidden">
+							<a class="w-full grow flex justify-center group items-center overflow-hidden" href="project.html">
+								<img class="object-cover h-full w-full hover:scale-110 duration-200" src="images/project-1.jpg" alt="alternative">
+							</a>
+                            <div class="p-3 flex flex-col shrink-0">
+                                <strong>Projetitle.com</strong>Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
                             </div>
                         </div>
-                        <!-- end of card -->
 
-                        <!-- Card -->
-                        <div class="card">
-                            <div class="card-image">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/project-5.jpg" alt="alternative">
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <strong>Projetitle.com</strong> - Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
+						<div class="rounded-sm flex flex-col h-80 ring-1 ring-gray-200 overflow-hidden">
+							<a class="w-full grow flex justify-center group items-center overflow-hidden" href="project.html">
+								<img class="object-cover h-full w-full hover:scale-110 duration-200" src="images/project-1.jpg" alt="alternative">
+							</a>
+                            <div class="p-3 flex flex-col shrink-0">
+                                <strong>Projetitle.com</strong>Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
                             </div>
                         </div>
-                        <!-- end of card -->
 
-                        <!-- Card -->
-                        <div class="card">
-                            <div class="card-image">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/project-6.jpg" alt="alternative">
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <strong>Projetitle.com</strong> - Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
+						<div class="rounded-sm flex flex-col h-80 ring-1 ring-gray-200 overflow-hidden">
+							<a class="w-full grow flex justify-center group items-center overflow-hidden" href="project.html">
+								<img class="object-cover h-full w-full hover:scale-110 duration-200" src="images/project-1.jpg" alt="alternative">
+							</a>
+                            <div class="p-3 flex flex-col shrink-0">
+                                <strong>Projetitle.com</strong>Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
                             </div>
                         </div>
-                        <!-- end of card -->
 
-                        <!-- Card -->
-                        <div class="card">
-                            <div class="card-image">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/project-7.jpg" alt="alternative">
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <strong>Projetitle.com</strong> - Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
+						<div class="rounded-sm flex flex-col h-80 ring-1 ring-gray-200 overflow-hidden">
+							<a class="w-full grow flex justify-center group items-center overflow-hidden" href="project.html">
+								<img class="object-cover h-full w-full hover:scale-110 duration-200" src="images/project-1.jpg" alt="alternative">
+							</a>
+                            <div class="p-3 flex flex-col shrink-0">
+                                <strong>Projetitle.com</strong>Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
                             </div>
                         </div>
-                        <!-- end of card -->
 
-                        <!-- Card -->
-                        <div class="card">
-                            <div class="card-image">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/project-8.jpg" alt="alternative">
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <strong>Projetitle.com</strong> - Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
+						<div class="rounded-sm flex flex-col h-80 ring-1 ring-gray-200 overflow-hidden">
+							<a class="w-full grow flex justify-center group items-center overflow-hidden" href="project.html">
+								<img class="object-cover h-full w-full hover:scale-110 duration-200" src="images/project-1.jpg" alt="alternative">
+							</a>
+                            <div class="p-3 flex flex-col shrink-0">
+                                <strong>Projetitle.com</strong>Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
                             </div>
                         </div>
-                        <!-- end of card -->
-
-                        <!-- Card -->
-                        <div class="card">
-                            <div class="card-image">
-                                <a href="project.html">
-                                    <img class="img-fluid" src="images/project-9.jpg" alt="alternative">
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <strong>Projetitle.com</strong> - Tempor orci eu lobortis elem ntum nibh pretium quam vulputate digner
-                            </div>
-                        </div>
-                        <!-- end of card -->
-
+                        
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
@@ -365,16 +320,16 @@
 
 
         <!-- Contact -->
-        <div id="contact" class="form-1 bg-gray">
-            <div class="container">
+        <div id="contact" class="form-1 bg-dark-700">
+            <div class="container max-w-7xl mx-auto">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="text-container">
-                            <h2>Sapien et ligula</h2>
-                            <p class="sub-heading">Ullamcorper malesuada proin libero adipiscing diam donec adipiscing tristique risus nec feugiat in egestas <a class="orange no-line" href="#your-link">services</a></p>
+                            <h2 class="text-gray-50">Sapien et ligula</h2>
+                            <p class="sub-heading text-gray-200">Ullamcorper malesuada proin libero adipiscing diam donec adipiscing tristique risus nec feugiat in egestas <a class="orange no-line" href="#your-link">services</a></p>
 
                             <!-- Contact Details -->
-                            <ul class="list-unstyled li-space-lg">
+                            <ul class="list-unstyled li-space-lg text-gray-300">
                                 <li>Adresse</li>
                                 <li>+49 123 456 789</li>
                                 <li>+49 123 456 789</li>
@@ -422,19 +377,19 @@
                         <!-- Contact Form -->
                         <form id="contactForm">
                             <div class="form-group">
-                                <input type="text" class="form-control-input" id="cname" required>
+                                <input type="text" class="form-control-input rounded" id="cname" required>
                                 <label class="label-control" for="cname">Name</label>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control-input" id="cemail" required>
+                                <input type="email" class="form-control-input rounded" id="cemail" required>
                                 <label class="label-control" for="cemail">Email</label>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                                <textarea class="form-control-textarea rounded" id="cmessage" required></textarea>
                                 <label class="label-control" for="cmessage">Project details</label>
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="form-control-submit-button">Submit</button>
+                                <button type="submit" class="form-control-submit-button rounded">Submit</button>
                             </div>
                         </form>
                         <!-- end of contact form -->
@@ -447,11 +402,11 @@
 
 
         <!-- Copyright -->
-        <div class="copyright bg-gray">
+        <div class="copyright bg-dark-700">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="p-small">Copyright © Johannes Greul</p>
+                        <p class="p-small text-white">Copyright © Johannes Greul</p>
                     </div> <!-- end of col -->
                 </div> <!-- enf of row -->
             </div> <!-- end of container -->
